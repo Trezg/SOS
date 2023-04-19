@@ -2,17 +2,17 @@ body{
     margin: 0;
     padding: 0;
     background: url(manet.jpg);
-    background-size: contain;
+    background-size:cover;
 
 }
 .box{
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 77%;
     transform: translate(-50%,-50%);
     width: 400px;
     padding: 40px;
-    background: rgba(0,0,0,.8);
+    background: rgba(173, 7, 7, 0.8);
     box-sizing: border-box;
     box-shadow: 0 15px 25px rgba(0,0,0,.5);
     border-radius: 10px;
@@ -37,10 +37,7 @@ button{
     
     
 }
-button:hover{
-    box-shadow: 0 5px 50px 0 deepskyblue inset, 0 5px 50px 0 deepskyblue,
-                0 5px 50px 0 deepskyblue inset, 0 5px 50px 0 deepskyblue;
-}
+
 .box h2{
     margin: 0 0 30px;
     padding: 0;
@@ -109,8 +106,5 @@ button:hover{
     border-radius: 25px;
     transition: 1.5s;
 }
-.box .x a:hover{
-     box-shadow: 0 5px 50px 0 deepskyblue inset, 0 5px 50px 0 deepskyblue,
-                0 5px 50px 0 deepskyblue inset, 0 5px 50px 0 deepskyblue;
-}
+
 
