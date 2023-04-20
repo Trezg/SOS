@@ -12,23 +12,23 @@ body{
     transform: translate(-50%,-50%);
     width: 400px;
     padding: 40px;
-    background: rgba(173, 7, 7, 0.8);
+    background: rgba(167, 58, 58, 0.8);
     box-sizing: border-box;
     box-shadow: 0 15px 25px rgba(0,0,0,.5);
-    border-radius: 10px;
+    border-radius: 20px;
     
         
 }
 button{
     position: relative;
     text-align: center;
-    width: 250px;
+    width: 200px;
     padding: 10px;
     font-size: 25px;
-    color:deepskyblue;
-    font-weight: 400;
-    font-family: "chiller";
-    border: 3px solid deepskyblue;
+    color:rgb(47, 0, 255);
+    font-weight: 200;
+    font-family: "italic";
+    border: 3px solid rgb(255, 255, 255);
     letter-spacing: 5px;
     cursor: pointer;
     border-radius: 100px;
@@ -41,10 +41,10 @@ button{
 .box h2{
     margin: 0 0 30px;
     padding: 0;
-    color: aqua;
+    color: rgb(0, 0, 0);
     text-align: center;
-    font-family: "chiller";
-    font-size: 25px;
+    font-family: "italic";
+    font-size: 30px;
     
 }
 .box .inputbox{
@@ -80,7 +80,7 @@ button{
 {
     top: -18px;
     left: 0px;
-    color: aqua;
+    color: rgb(68, 0, 255);
     font-size: 20px;
 }
 .box input[type="submit"]
@@ -89,20 +89,20 @@ button{
     border: none;
     outline: none;
     color: white;
-    background-color: aqua;
+    background-color: rgb(252, 0, 0);
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 12px;
     
 }
 .x{
-    font-family: "chiller";
-    color: white;
-    font-size: 30px;
+    font-family: "italic";
+    color: rgb(255, 255, 255);
+    font-size: 20px;
 }
 .box .x a{
     text-decoration: none;
-    color: rgb(63, 214, 17);
+    color: rgb(38, 0, 255);
     border-radius: 25px;
     transition: 1.5s;
 }
