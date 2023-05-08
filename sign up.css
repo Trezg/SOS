@@ -1,9 +1,7 @@
 body{
-    margin: 0;
-    padding: 0;
     background: url(sign\ up.jpg);
     background-size: cover;
-
+    background-repeat: repeat-y;
 }
 .box{
     position: absolute;
@@ -11,13 +9,11 @@ body{
     left: 50%;
     transform: translate(-50%,-50%);
     width: 300px;
-    padding: 50px;
+    padding: 55px;
     background: rgba(167, 58, 58, 0.8);
     box-sizing: border-box;
     box-shadow: 0 15px 25px rgba(0,0,0,.5);
     border-radius: 50px;
-    
-        
 }
 .box h2{
     margin: 0 0 30px;
@@ -26,13 +22,16 @@ body{
     text-align: center;
     font-family: "italic";
     font-size: 30px;
-    
 }
-.box x{
+.x{
+    padding-top: 1;
     font-family: "italic";
     color: rgb(255, 255, 255);
     font-size: 20px;
-
+}
+.x a{
+    text-decoration: none;
+    color: rgb(2, 2, 48);
 }
 button{
     position: relative;
@@ -40,5 +39,5 @@ button{
     width: 150px;
     padding: 1px;
     font-size: 25px;
-    color: black;
+    color: rgb(92, 0, 0);
 }
