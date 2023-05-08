@@ -10,11 +10,10 @@ body{
     top: 50%;
     left: 77%;
     transform: translate(-50%,-50%);
-    width: 400px;
+    width: 300px;
     padding: 40px;
     background: rgba(167, 58, 58, 0.8);
     box-sizing: border-box;
-    box-shadow: 0 15px 25px rgba(0,0,0,.5);
     border-radius: 20px;
     
         
@@ -24,16 +23,16 @@ button{
     text-align: center;
     width: 200px;
     padding: 10px;
-    font-size: 25px;
-    color:rgb(47, 0, 255);
-    font-weight: 200;
+    font-size: 20px;
+    color:rgb(0, 0, 0);
+    font-weight: 400;
     font-family: "italic";
-    border: 3px solid rgb(255, 255, 255);
+    border: 3px solid rgb(0, 0, 0);
     letter-spacing: 5px;
     cursor: pointer;
     border-radius: 100px;
     transition: 1.5s;
-    background: transparent;
+    background-color: rgb(255, 255, 255);
     
     
 }
@@ -41,7 +40,7 @@ button{
 .box h2{
     margin: 0 0 30px;
     padding: 0;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-align: center;
     font-family: "italic";
     font-size: 30px;
@@ -52,14 +51,14 @@ button{
 }
 .box .inputbox input{
     width: 100%;
-    padding: 10px 0;
+    padding: 20px 0;
     letter-spacing: 1px;
     font-size: 16px;
     background: transparent;
-    color: white;
+    color: rgb(0, 0, 0);
     margin-bottom: 30px;
     border: none;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid rgb(0, 0, 0);
     outline: none;
 }
 .box .inputbox label{
@@ -71,8 +70,8 @@ button{
     font-size: 25px;
     color: white;
     pointer-events: none;
-    transition: 1.5s;
-    font-family: "chiller";
+    transition: 0.5s;
+    font-family: "italic";
 
 }
 .box .inputbox input:focus ~ label,
@@ -80,31 +79,42 @@ button{
 {
     top: -18px;
     left: 0px;
-    color: rgb(68, 0, 255);
+    color: #350005;
     font-size: 20px;
-}
-.box input[type="submit"]
-{
-    background: transparent;
-    border: none;
-    outline: none;
-    color: white;
-    background-color: rgb(252, 0, 0);
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 12px;
-    
 }
 .x{
     font-family: "italic";
     color: rgb(255, 255, 255);
-    font-size: 20px;
+    font-size: 15px;
 }
 .box .x a{
     text-decoration: none;
-    color: rgb(38, 0, 255);
-    border-radius: 25px;
-    transition: 1.5s;
+    color: rgb(0, 0, 0);
+}
+.text{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    height: 300px;
+    padding: 30px;
+   
+}
+.text h2{
+    font-weight: bolder;
+    margin: 0 0 30px;
+    padding: 30px;
+    color: rgb(194, 42, 42);
+    text-align: center;
+    font-family: "italic";
+    font-size: 30px;
+    
+}
+.text p{
+    text-align: justify;
+    color: rgb(236, 12, 12);
+    font-size: large;
 }
 
 
