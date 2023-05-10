@@ -4,49 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="log in.css">
+    <title>Login</title>
 </head>
 <body>
-   
-    <div class="one">
-    <nav class="navbar">
-        <img src="benz.jpg">
-        <ul>
-            <li>
-                <a href="">Home</a>
-            </li>
-            <li>
-                <a href="">About</a>
-            </li>
-            <li>
-                <a href="">Log in</a>
-            </li>
-            <li>
-                <a href="">Sign Up</a>
-            </li>
-        </ul>
-    </nav>
+    <div class="text">
+    <h2>WELCOME TO E-GAMING CONSOLE</h2>
+    <p>E-GAMING CONSOLE WHERE YOU WILL FIND THE BEST CONSOLE MATERIALS THAT ARE USED IN GAMING AND HELPS YOU IN YOUR DAILY LIFE FOR THE BEST YOU CAN GET</p>
     </div>
-    
-    <selection class="selection">
-        <div>
-            <img src="benz.jpg" alt="" id="photo">
-        </div>
-        <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum tempore, unde molestiae modi, deleniti incidunt vel culpa enim inventore ullam animi maiores provident ea quidem ipsa officia doloremque, quam corrupti!</p>
-        </div>
-    </selection>
-    <form action="">
-    Number one: <input type="text">
-    Number Two: <input type="text">
-    </form>
+    <div class="box">
+    <h2>LOG IN</h2>
     <form>
-        Time:<input type="number" id="time">
-        <button id="tm">time</button>
-    </form>
-    <div id="root">
-    </div>
-    <script src="script.js"></script>
+        <div class="inputbox">
+        <input type="email" name="email" required="">
+            <label>Email</label>
+        </div>
+        <div class="inputbox">
+        <input type="password" name="password"id="password" required="" >
+        <label>Password</label>
+        <input type="checkbox" onclick="myFunction()">Show Password
+        </div>
+        <script>
+            function myFunction() {
+              var x = document.getElementById("password");
+              if (x.type === "password") {
+                x.type = "text";
+              } else {
+                x.type = "password";
+              }
+            }
+            </script>
+            
+      <div>
+          <button type="submit" name="button">LOG IN</button></div>
+        <p class="x">Don't have an account?<a href="sign up.html">Sign up</a></p>
+        </form>
+        </div>
+    
+    
 </body>
 </html>
